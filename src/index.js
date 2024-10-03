@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import MapFuntion from './MapFuntion'
+import MapFuntion from './usestatefuntion';
+import CountButton from './CountButton'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <MapFuntion />
+    <CountButton/>
   </React.StrictMode>
 );
 
