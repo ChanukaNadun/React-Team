@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MapFuntion from './usestatefuntion';
 import CountButton from './CountButton'
+import Table from './TableBoostrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <CountButton/>
+    <Table/>
   </React.StrictMode>
 );
 
