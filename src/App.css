@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.font-in-text{
+  font-size: 40px;
+}
+
+.button-useState-UseEffect{
+  width: 200px;
+  background-color: #710125;
+  color: aliceblue;
+  height: auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
